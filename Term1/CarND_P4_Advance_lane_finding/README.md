@@ -1,5 +1,5 @@
-## Advanced Lane Finding  ReadMe
-
+## Advanced Lane Finding
+Murali Madala
 
 **Advanced Lane Finding Project**
 
@@ -53,9 +53,6 @@ This worked well.
 
 ---
 
-### Writeup / README
-
-You're reading it!
 
 ### Camera Calibration
 
@@ -219,14 +216,13 @@ Harder challenge video (not working correctly):
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Overall the project was challenging. My lack of understanding with numpy clearly made me fail not to use centroids sliding window method and 
-had to spent significant time in understanding how the transformations, fitting etc., really works.
+Improvements / Design choice:
+Overall the project is challenging, 
 
-Conceputally I think I understood it well. Which I felt good about how I applied pre-processing with all gradients and color schems. Due to lack
-of timing or poor planning on my end, I could not achieve where my mental goal was set with this project.
+1) Could use centroids sliding window technique which could save time in image transformations, fitting etc.,
+2) Could imporve polyfitting.
+3) Add more debug data to understanding finding curves.
 
-I could spend more hours/days on making polyfitting better and actually use centroid technique or other techniques online via resarch papers.
-I think I need bit more understanding in finding curves which would allow me put more debug data into it and find more bugs and fix it.
-
-Overall adding more debugging to project and better understanding of scipy would make my understandings fit the work.
-
+Reflections:
+Overall, this project is challenging. 
+Conceputally I think I understood it well. Which I felt good about how I applied pre-processing with all gradients and color schems.
