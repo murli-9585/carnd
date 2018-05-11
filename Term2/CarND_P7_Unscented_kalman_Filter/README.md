@@ -34,7 +34,7 @@ Murali Madala
 	representative points from Gaussian distribution (Sigma points) and plug them to non-linear equations to predict.
 
 	CTRV model:
-	![](images/CTRV_Model.png)
+![](images/CTRV_Model.png)
 
 	UKF Roadmap:
 	![](images/UKF_Roadmap.png)
