@@ -41,14 +41,14 @@ Murali Madala
 
 ## Results: <a name="results"></a>
 
-	![](images/UKF_dataset1.png)
-	![](images/UKF_dataset2.png)
+![](images/UKF_dataset1.png)
+![](images/UKF_dataset2.png)
 
 ## NIS: <a name="nis"></a>
 	Normalized innovation squared Measurements (NIS) for ladar and Radar are calculated at the end of update step
 	and when looking at 95% confidence level here is how it looks with this solution.
 
-	![](images/NIS_laser_radar.png)
+![](images/NIS_laser_radar.png)
 	
 ## Future Enhancements: <a name="enhancements"></a>
  1. Modify main.cpp to easily switch between 2 data sets without restarting.
