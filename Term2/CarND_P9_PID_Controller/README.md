@@ -63,7 +63,7 @@ based on error tracking mechanism.
 	The following short clips shows how each coefficient plays role:
 	1) No Proportional control taken in consideration: (Kp =0) when calculating total error.
 	Notice the vehicle is moving closer to lanes (right and left)
-	[![Alt text](/Images/pid_controller.png)](https://youtu.be/oi3zbPxnMtw)
+	[![With P==0](/Images/pid_controller.png)](https://youtu.be/oi3zbPxnMtw)
 
 	2) No differential control taken in consideration. Notice the oscillations.
 	[![Alt text](/Images/pid_controller.png)](https://youtu.be/499tlCFb6Vw)
