@@ -63,17 +63,17 @@ based on error tracking mechanism.
 	The following short clips shows how each coefficient plays role:
 	1) No Proportional control taken in consideration: (Kp =0) when calculating total error.
 	Notice the vehicle is moving closer to lanes (right and left)
-	[![with P==0](Images/pid_controller.png)](https://youtu.be/oi3zbPxnMtw)
+	[![with P==0](https://img.youtube.com/vi/oi3zbPxnMtw/0.jpg)](https://youtu.be/oi3zbPxnMtw)
 
 	2) No differential control taken in consideration. Notice the oscillations.
-	[![with D==0](Images/pid_controller.png)](https://youtu.be/499tlCFb6Vw)
+	[![with D==0](https://img.youtube.com/vi/499tlCFb6Vw/0.jpg)](https://youtu.be/499tlCFb6Vw)
 
 	3) No Intergral control taken into consideration.
-	[![with I==0](Images/pid_controller.png)](https://youtu.be/zs6FU1qytGo)				
+	[![with I==0](https://img.youtube.com/vi/zs6FU1qytGo/0.jpg)](https://youtu.be/zs6FU1qytGo)				
 
 ## Final result: <a name="final"></a>
 	This video shows the final result of the project with PID controller.
-	[![PID Result](Images/pid_controller.png)]( https://youtu.be/RMR5pwjulP8)
+	[![PID Result](https://img.youtube.com/vi/RMR5pwjulP8/0.jpg)]( https://youtu.be/RMR5pwjulP8)
 
 
 ## References: <a name="references"></a>
