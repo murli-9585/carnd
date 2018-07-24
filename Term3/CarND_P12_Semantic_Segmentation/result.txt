@@ -1,0 +1,41 @@
+Training Results...
+Epoch: 0/20 || Execution Time: 2115.7895469665527 seconds || Loss: 0.6899385452270508
+
+Epoch: 1/20 || Execution Time: 2046.766263961792 seconds || Loss: 0.44442638754844666
+
+Epoch: 2/20 || Execution Time: 2492.9687530994415 seconds || Loss: 0.1736682504415512
+
+Epoch: 3/20 || Execution Time: 2002.774763584137 seconds || Loss: 0.22564981877803802
+
+Epoch: 4/20 || Execution Time: 2016.5236601829529 seconds || Loss: 0.14753814041614532
+
+Epoch: 5/20 || Execution Time: 2085.4989290237427 seconds || Loss: 0.23250333964824677
+
+Epoch: 6/20 || Execution Time: 2082.6698701381683 seconds || Loss: 0.05865832418203354
+
+Epoch: 7/20 || Execution Time: 2373.7246198654175 seconds || Loss: 0.1309855878353119
+
+Epoch: 8/20 || Execution Time: 2380.628518104553 seconds || Loss: 0.1852121204137802
+
+Epoch: 9/20 || Execution Time: 2385.6072771549225 seconds || Loss: 0.24373584985733032
+
+Epoch: 10/20 || Execution Time: 2382.6233201026917 seconds || Loss: 0.07676880061626434
+
+Epoch: 11/20 || Execution Time: 2117.2499260902405 seconds || Loss: 0.026296256110072136
+
+Epoch: 12/20 || Execution Time: 2233.8481578826904 seconds || Loss: 0.15522433817386627
+
+Epoch: 13/20 || Execution Time: 2030.5563130378723 seconds || Loss: 0.1286194622516632
+
+Epoch: 14/20 || Execution Time: 2069.946341753006 seconds || Loss: 0.1398572027683258
+
+Epoch: 15/20 || Execution Time: 2073.238614797592 seconds || Loss: 0.09935903549194336
+
+Epoch: 16/20 || Execution Time: 2235.20800113678 seconds || Loss: 0.08526550233364105
+
+Epoch: 17/20 || Execution Time: 2013.5014171600342 seconds || Loss: 0.03792387619614601
+
+Epoch: 18/20 || Execution Time: 2202.5083408355713 seconds || Loss: 0.05481530353426933
+
+Epoch: 19/20 || Execution Time: 2375.2575030326843 seconds || Loss: 0.08635124564170837
+ 
