@@ -36,22 +36,23 @@ Image below when the distance between front car and car is less than 30 meters. 
 #### Change lanes when it is safe to do so:
 This is accomplished using the following pseudo code. 
 
-For every_car detected by sensor_Fusion {
-  if no_car_ahead_for_next_30_meters_in_same_lane
-      continue;
-  else {
-      if (car_is_ahead_than_car)
-          bool blocking_front = true;
-      else if (not (no_cars_behind_in_left_lane_within_safe_merging_distance) or
-               (no_cars_ahead_in_left_lane_within_safe_merging_distance)) {
-               bool blocking_left = True;
-             }
-      // Preference given to merge left first.
-      else if (not (no_cars_behind_in_right_lane_within_safe_merging_distance) or
-                ( no_cars_ahead_in_right_lane_within_safe_merging_distance)) {
-                bool blocking_right = True;
-              }
-}
+      For every_car detected by sensor_Fusion {
+          if no_car_ahead_for_next_30_meters_in_same_lane
+              continue;
+          else {
+              if (car_is_ahead_than_car)
+                  bool blocking_front = true;
+          else if (not (no_cars_behind_in_left_lane_within_safe_merging_distance) or
+                   (no_cars_ahead_in_left_lane_within_safe_merging_distance)) {
+                   bool blocking_left = True;
+          }
+          // Preference given to merge left first.
+          else if (not (no_cars_behind_in_right_lane_within_safe_merging_distance) or
+                  ( no_cars_ahead_in_right_lane_within_safe_merging_distance)) {
+                  bool blocking_right = True;
+          }
+        }
+      }
 Following code is in main.cpp; Function: processSensorFusion (line: 50)
 
 Once the state of other cars is determined, Using the three booleans, Current car next state is determined
@@ -95,7 +96,7 @@ wrt to distance to front car and amount of distance covered in a loop. But this 
 Its done in main.cpp, UpdateCarState method line 135-145.
 
 #### The end result video that passes all the project rubric criteria can be viewed here.
-[![Alt text](/images/path_planning_video_img)](https://youtu.be/UCLE9B3QRHU) [here]
+[![Project_Video](/images/path_planning_video_img)](https://youtu.be/UCLE9B3QRHU)
 The vehicle drove for 15 mins without incident covering 10.35 miles.
 
 ### Further Improvements:
